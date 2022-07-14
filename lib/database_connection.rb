@@ -1,3 +1,5 @@
+require 'pg'
+
 def self.connect
   # If the environment variable (set by Heroku)
   # is present, use this to open the connection.
